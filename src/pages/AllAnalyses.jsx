@@ -11,6 +11,7 @@ const AllAnalyses = () => {
   const [filterType, setFilterType] = useState("all");
   const [sortBy, setSortBy] = useState("newest");
   const navigate = useNavigate();
+  
 
   useEffect(() => {
     let filtered = [...predictions];
