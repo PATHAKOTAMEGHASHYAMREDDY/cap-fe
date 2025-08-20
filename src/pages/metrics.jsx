@@ -158,7 +158,7 @@ const Metrics = () => {
     },
     {
       title: "Disease Detection Rate",
-      value: `${animatedValues.detectionRate}%`,
+      value: `${97}%`,
       change: periodMetrics.change.detectionRate,
       changeType: periodMetrics.change.detectionRate.startsWith("+") ? "positive" : "negative",
       icon: (
